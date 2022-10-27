@@ -1,0 +1,29 @@
+#CAP 6 (guimp):
+*redefinir imagem:
+- imagem => redimencionar imagem e mudar largura e altura 
+- obs: muda a largura e aperta "tab" para preencher certinho 
+- resolução por entre 50 e 80
+
+-por fim: Arquivos => Export as... => salva a copia 
+
+*Add Favicon (icone no inicio do site) escreve "link favicon"
+
+
+
+# CAP 10 (LINKS)
+
+*links externos:
+
+- <a href="https://github.com/thiago-igor" // aqui estamos botando a URL
+
+- target="_blank" // serve para abrirmos o link em uma nova aba 
+
+- rel="external" // apenas sinaliza que é uma aba externa 
+
+- rel="next"  // sinaliza que vamos abrir uma prox pag internamente 
+
+- Aperta "ctrl + espaço" e ele mostra os links internos
+
+- <a href="../index.html">voltar</a>  // nesse caso o "../" siginifica voltar.
+
+- <a href="Curriculo/Curriculo.pdf" download="curriculo.zip"  // na mesma area de pastas temos o material que queremos baixar, dai usamos esse termo download="  "
