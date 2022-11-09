@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente:</h1>
+    <p>Este video esta hospedado no meu propio servidor.</p>
+    <video width="300" poster="imagens/graoCafe1.jpg" controls loop>
+        <source src="midias/cafe.m4v" type="video/mp4">
+        <source src="midias/cafe.webm" type="videos/webm">
+        <source src="midias/cafe.mp4" type="videos/mp4">
+        <p>Seu navegador nao é compativel para reprodução, baixe o video aqui: <a href="midias/cafe.m4v">baixar</a></p>
+    </video>
+    <!--Carrega os source em de cima para baixo ate achar um compativel-->
+
+    <h1>Inserindo videos do youtube</h1>
+    <p>youtube:</p>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/6_nymVh54hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo video do Vimeo:</h1>
+    <p>Vimeo:</p>
+    <iframe src="https://player.vimeo.com/video/715848386?h=a1d4a34b83" width="500" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>

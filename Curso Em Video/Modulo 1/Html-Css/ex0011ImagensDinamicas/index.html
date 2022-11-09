@@ -17,5 +17,18 @@
         
         <img src="imagens/foto-g.png" alt="imagem flexivel">
     </picture>
-</body>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML 5</p>
+    <audio preload="metadata" controls>
+        <source src="midias/Put_It.mp3" type="audio/mpeg">
+        <source src="midias/Put_It.ogg" type="audio/ogg">
+        <source src="midias/Put_It.was" type="audio/WAV">
+        <p>seu navegador nao aceita reprodução de audio. <a href="midias/Put_It.mp3">clique aqui para baixar</a>  </p>   
+    </audio>
+    <!-- ele procura de cima para baixo o que seu site aceita MP3 WAV OGG-->
+        
+    <audio src="midias/Put_It.mp3"controls></audio>
+    <!-- So vai carregar se seu site aceitar mp3-->
+    </body>
 </html>
