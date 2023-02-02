@@ -10,3 +10,7 @@
 .pai h2~p{ /*Seleciona todos os 'p' depois de 'h2'*/
     color: red;
 }
+
+[meu-atributo]{ /*Seleciona exatamente o atributo h1*/
+    color: red;
+}
