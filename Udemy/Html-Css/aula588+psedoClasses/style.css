@@ -1,0 +1,3 @@
+p:not(.meio){ /*Negação, muda todos paragrafos, menos o com a classe meio*/
+    color:blue;
+}
