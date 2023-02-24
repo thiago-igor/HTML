@@ -50,6 +50,14 @@ nav a:hover{
     background: darkmagenta;
 }
 
+.paragrafo{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10000px;
+    background: darkcyan;
+    padding: 15px;
+}
+
 @media(max-width: 578px){ /*Se o tamanho maximo da minha tela for de 375px, meu width sera 100%*/
     .grid .col{
         width: 100%;
