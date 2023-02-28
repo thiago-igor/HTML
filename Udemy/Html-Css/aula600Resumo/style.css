@@ -54,6 +54,7 @@ body{
 
 .menu ul li{
     float: left;
+    text-transform: uppercase;
 }
 
 .menu ul li a{
