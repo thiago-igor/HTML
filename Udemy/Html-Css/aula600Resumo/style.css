@@ -37,6 +37,9 @@ body{
     width: 100%;
     height: 100%;
     background: darkmagenta;
+    border-radius: 15px; /*Curvar as bordas*/
+    /*border-radius: 50%; // transforma o quadrado em um circulo perfeito */
+    box-shadow: 10px 10px 10px 10px gray; /*sobra no box*/
 }
 .menu{
     width: 100%;
