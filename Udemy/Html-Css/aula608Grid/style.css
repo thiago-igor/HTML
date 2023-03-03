@@ -13,7 +13,7 @@ body{
     margin: 0 auto;
     display: grid;
     grid-template-columns: [um] 1fr  [dois] 1fr [tres] 1fr [quatro] 1fr;
-    gap: 30px; /*Espaçamento entre div*/
+    gap: 30px; /*Espaçamento entre linhas e colunas*/
 }
 
 .grid div{
