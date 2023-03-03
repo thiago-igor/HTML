@@ -16,6 +16,8 @@
 }
 
 .flex-item{
+    width: 100%;
+    color: #fff;
     background: red;
     margin: 10px;
 }
