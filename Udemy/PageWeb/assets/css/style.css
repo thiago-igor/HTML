@@ -37,11 +37,11 @@
 }
 
 .grid-main-heading{
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /*MArgin de 20px no h2*/
 }
 
 .grid-descript{
-    padding-bottom: 3rem;
+    padding-bottom: 3rem; /*Padding de 30 px nos paragrafos*/
 }
 
 .grid{
