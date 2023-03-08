@@ -11,6 +11,7 @@ font-family: 'Open Sans', sans-serif;
 
 html{
     font-size: 62.5%; /*Isso equivale a 10px no navegador*/
+    scroll-behavior: smooth; /*Quando clicar uma opcçao do menu, ele rola devagar*/
 }
 
 body{
@@ -54,4 +55,8 @@ h5{
 
 h6{
     font-size: 3.5rem;
+}
+
+p{
+    margin-bottom: 3rem;
 }
