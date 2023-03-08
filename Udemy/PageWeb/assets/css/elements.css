@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+html{
+    font-size: 62.5%; /*Isso equivale a 10px no navegador*/
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem; /*Equivalendo a 20px / 2 X 10 = 20px */
+    color: var(--primary-color); /*Usando variavel criada a cima*/
+    line-height: 1.5; /*Espaçamento entre linhas*/
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 6rem; /*6 X 10 = 60px*/
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 6rem;
+    margin-bottom: 5rem; /*Margin inferior*/
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+h3{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 4.5rem;
+}
+
+h5{
+    font-size: 4rem;
+}
+
+h6{
+    font-size: 3.5rem;
+}
