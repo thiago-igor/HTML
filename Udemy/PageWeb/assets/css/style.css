@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1.5fr; /*dividindo as div em 2 espaços iguais*/
     align-items: center; /*Alinha no centro*/
     gap: var(--gap);
-    height: 100vh; /*Dando para grid o tamanho total da tela*/
+    min-height: 100vh; /*Dando para grid o tamanho total da tela*/
 }
 
 .intro-text-content, .intro-img{ /*Colocando flex dentro de colunas da grid*/
@@ -23,7 +23,8 @@
     max-width: 64rem;
     text-align: center;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    flex-wrap: nowrap; /*Nao permite que a coluna se quebre*/
     justify-content: center;
     height: 100vh;
 }
@@ -32,7 +33,7 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -69,3 +70,18 @@
     transform:rotate(5deg)/*Girando o elemento 5 graus*/
 }
 
+.gallery-img{
+    width: 100%;
+    max-width: 36rem;
+    max-height: 36rem;
+    overflow: hidden;/*Quando diminui a tela, a imagem diminui junto*/
+}
+
+.gallery-img img{
+    transition:all 300ms ease-in-out ; /*Colocar efeito na img*/
+}
+
+.gallery-img img:hover{
+    /*transform: ; varios tipos de efeitos na img */
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+}
