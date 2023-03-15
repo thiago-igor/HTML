@@ -34,7 +34,6 @@
     flex-flow: column wrap;
     justify-content: center;
     min-height: 100vh;
-
 }
 
 .grid-main-heading{
@@ -85,3 +84,5 @@
     /*transform: ; varios tipos de efeitos na img */
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
+
+
