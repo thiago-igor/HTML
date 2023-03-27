@@ -26,7 +26,6 @@
     flex-direction: column;
     flex-wrap: nowrap; /*Nao permite que a coluna se quebre*/
     justify-content: center;
-    height: 100vh;
 }
 
 .grid-one-content{
@@ -98,12 +97,20 @@
     gap: var(--gap);
 }
 
+.font-grid legend{
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    
+}
+
 .form-group{
     flex: 1 1 320px;
 }
 
 .form-group label{
     display: block; /*Assim, os inputs fica em baixo dos label*/
+    margin-bottom: 1rem;
 }
 
 .form-group input, .form-group textarea{
@@ -111,6 +118,7 @@
     background: var(--white-color);
     padding: 1.5rem 2rem;
     width: 100%;
+    font-size: 2rem;
 }
 
 .form-group button{
@@ -126,4 +134,22 @@
 .form-group button:hover {
     background: var(--white-color);
     color: var(--primary-color);
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.footer a{
+    color: var(--primary-color)
+}
+
+.heart{
+    color: var(--secondary-color);
+}
+
+.footer p{
+    margin: 0;
+    padding: 3rem;
 }
